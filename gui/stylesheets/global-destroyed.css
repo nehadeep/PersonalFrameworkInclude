@@ -1,0 +1,2499 @@
+
+body {                                      padding: 0; margin: 0; font-size: 11px;	color: #333;	text-align: center;	background:#fff;	font-family:Arial,Helvetica,sans-serif;}
+a:active, a:link, a:visited { 	            color: #333; }
+a:hover {                                   text-decoration: underline;}
+img {                                       border: none;}
+form.gh-form, h1, h2, h3, h4, h5, h6 {	margin: 0;	padding: 0;}
+fieldset {                                  border:none; padding:0px; margin:0px;}
+.bold {                                     font-weight:bold; !important}
+.italic {                                   font-style:italic; !important}
+.underline {                                text-decoration:underline; !important}
+.dash {                                     border-bottom:1px dashed #333; !important}
+.strike {                                   text-decoration:line-through; !important}
+.dispNone {                                 display:none; !important}
+.dispBlock {                                display:block; !important}
+.drkGrey {                                  color:#333 !important;}
+.grey {                                     color:#666 !important;}
+.ltGrey {                                   color:#999 !important;}
+.white {                                    color:#fff !important;}
+.black {                                    color:#000 !important;}
+.red {                                      color:#cc0000 !important;}
+.drkRed {                                   color:#990000 !important;}
+.blue {                                     color:#006cbd !important;}
+.larger {                                   font-size:12px !important;}
+.largest {                                  font-size:13px !important;}
+.smaller {                                  font-size:10px !important;}
+.smallest {                                 font-size:9px !important;}
+.txtLeft {                                  text-align:left;}
+.txtCenter {                                text-align:center;}
+.txtRight {                                 text-align:right;}
+.clear {	                                clear:both;	display:block;	font-size:0.01em;	height:0px;	margin:0px;	overflow:hidden;	padding:0px;}
+.visualIEFloatFix {                         height: 0.01%;}
+.disabledContent {	                        width:100%;	filter:alpha(opacity=60);	opacity: 0.6;	-moz-opacity:0.6;	background:#fff;}
+.orangeLinkArrow {                          background: url(https://img.cdw.com/global/arrows/arrow-orange-right-trans.gif) 0px 4px no-repeat; padding-left:10px !important; outline:none;}
+.whiteLinkArrow {                           background: url(https://img.cdw.com/global/arrows/arrow-white-trans.gif) 0px 4px no-repeat; padding-left:10px !important; outline:none;}
+.blackLinkArrow {                           background: url(https://img.cdw.com/assets/pages/framework/arrow-black-trans.gif) 0px 4px no-repeat; padding-left:10px !important; outline:none;}
+.pageTitle {	                            font-family: Arial, Helvetica, sans-serif; 	font-size: 20px; 	font-weight: bold; 	color:#333;}
+img.gh-image {	                            border: 0;}
+p.boxcontent {                              width:960px; overflow:hidden;}
+form.gh-form #ckKeepLoggedIn, form.gh-form #ckSavePassword{	padding: 0;	margin: 8px 0 0 0;	.margin: 6px 0 0 0;	vertical-align: middle;	.vertical-align: top;	padding:2px 0 0 0;	.padding:6px 0 0 0;}
+form.gh-form .blacktxt{	                    padding: 0;	margin: 0;	vertical-align: middle;	.vertical-align: bottom;	padding-top: 10px;	.margin-top: 6px;}
+#c-container, #g-container, #ca-container, #prem-container {	width: 960px;	text-align: left;	margin: auto;	background:#fff;	position:relative;}
+
+#container-all {	font-family:Arial,Helvetica,sans-serif;	text-align:left;}
+h1 {font-size: 20px;}
+h2 {font-size: 16px;}
+h3 {font-size: 14px;}
+h4 {font-size: 12px;}
+h5 {font-size: 11px;}
+h6 {font-size: 10px;}
+
+/*---------------------------------HEADER-----------------------------------*/
+
+/*---------------HEADER top link---------------*/
+
+#header-top-link {
+	height: 21px;
+	padding-top: 14px;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#header-top-link-left {
+	float: left;
+	padding: 0;
+	margin: 0 0 0 10px;	
+}
+
+#header-top-link-left li{
+	float: left;
+	list-style-type: none;
+	margin: 0 15px 0 0;
+}
+			  
+#prem-container #header-top-link-left {
+	margin: 0 0 0 5px;/*---- changes for premium close loop -----*/	
+}
+
+#prem-container #header-top-link-left li{
+	height: 20px;/*---- changes for premium close loop -----*/	
+}
+#header-top-link-right {
+	float: right;
+	padding: 0;
+	margin: 0;	
+}
+
+#header-top-link-right li{
+	float: left;
+	list-style-type: none;
+	padding:0 9px 0px;
+	margin:0px;
+}
+
+#header-top-link a.header-top-link-txt {
+	color: #333;	
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header-top-link a.header-top-link-txt:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+#header-top-link a.header-nav-sec-items:hover{
+	color: #cc0000;
+	text-decoration: none;
+}
+
+/*-------------------header---------------*/
+
+  
+#header-tab-element-true-close {/*---- changes for premium close loop -----*/	
+	height: 31px;
+	.height: 32px;
+}
+
+#header-menu-div-prem {/* premium close menu pages */
+	padding-top: 6px; 
+	.padding-top: 5px; 
+}
+#header-menu-div {
+	margin: 3px 0 0 2px; 
+}
+#header-acc-logged-in {
+	margin-top: 5px; 
+}
+#header-order-menu-div {
+	margin: 0px;
+	padding: 0px;
+	border-right:1px solid #5a554a;
+	position:absolute;
+	top:75px;
+	left:197px;
+	z-index:2000;
+}
+
+
+/*----------------header tab div contents style------------------*/
+
+#header-tab-div-contents{
+	margin-left: 0px;
+	padding: 0px;
+	position:absolute;
+	top:40px;
+	left:200px;
+}
+
+#user-name-input, #g-container  #user-name-input {	
+	height: 62px;		
+	width: 150px;
+	margin: 0px;
+	padding-top: 6px;
+}
+#welcome-user, #g-container  #welcome-user {
+	float: left;	
+	margin-left: 0px;
+	width: 670px;	
+	height: 37px;
+	padding:7px 0 0 5px;
+}
+
+#welcome-user-shop{float:left;width:670px;margin-left:0;padding:7px 0 0 5px;}
+
+#welcome-user-name {
+	width: 130px;
+	.height: 0;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#welcome-user-prem-close-loggedin {/*---- new for premium close loop -----*/	
+	float: left;	
+	width: 320px;
+	.width: 323px;	
+	height: 28px;
+	.height: 37px;	
+	margin-left: 0px;
+	padding:9px 0 0 5px;
+	.padding:6px 0 0 5px;
+}
+
+#logon-option-left {
+	float: left;
+	width: 460px;
+}
+
+#logon-option-pref {	
+	float: right;
+	width: 150px;
+	margin: 6px 0 0 0;
+	line-height: 13px;
+	vertical-align: text-top;
+}
+#password-input {
+	float: left;
+	width: 120px;
+	margin-top: 6px;
+}
+
+#create-acct {	
+	float: right;
+	width: 120px;
+	margin: 6px 5px 0 4px;
+	vertical-align: text-top;
+	line-height: 13px;
+}
+.search-products{
+	float: left;
+	width: 295px;
+	padding: 0px;
+	margin:5px 0 0 10px;
+	.margin:5px 0 0 5px;
+}
+
+.findit-btn-div{
+	float: left;
+	width: 80px;
+	margin-top: 7px;
+	.margin-top: 5px;
+	padding: 0px;
+}
+.logon-btn-div {
+	float: left;
+	margin:20px 0 0 11px;
+}
+
+.adv-search{
+	float: left;
+	width: 120px;
+	margin-top:13px;
+	.margin-top: 11px;
+	color: #333;
+	font-size: 11px;
+	font-weight:bold;
+	padding-left: 5px;
+	text-decoration: none;
+	height:12px;
+	overflow:hidden;
+}
+.adv-search-style1{
+	float: left;
+	width: 95px;
+	margin:15px 0 0 10px;
+	.margin:11px 0 0 10px;
+	padding: 0px;
+
+}
+
+/*----------------header tab div contents style for Firefox------------------*/
+
+html>body #welcome-user {height: 29px;}
+html>body #g-container #welcome-user {height: 30px;}
+
+html>body #password-input {margin-left: 30px;}
+
+html>body .logon-btn-div {
+	padding-top: 12px;
+	padding-left: 65px;
+}
+html>body .findit-btn-div-style2 {
+	padding-top: 3px;
+	padding-left: 0px;
+}
+
+
+/*------------header tab style for firefox--------*/
+
+html>body #welcome-user {padding-top:8px;}
+
+html>body .search-products{margin-top:7px;}
+
+html>body .logon-btn-div{margin-top:7px;}
+
+html>body #tab-contents {margin-left: 160px;}
+
+html>body #header-menu-tab .header-menu-tab-style {
+	margin-top: 3px;
+	line-height: 14px;	
+}
+
+
+/*--------------Border style---------------------*/
+
+.border-right {border-right: 1px solid #fff;}
+.border-top1, .bt1, .border-top-white {border-top: 1px solid #fff;}
+.border-top2, .bt2 {border-top: 1px solid #9c9c90;}
+.border-top3, .bt3 {border-top: 1px solid #ada49b;}
+.border-bottom3, .bb3 {border-bottom: 1px solid #ada49b;}
+/*--------------Arrow style---------------------*/
+
+.grey-arrow-bg {
+	background: url(https://img.cdw.com/assets/pages/framework/ico-grey-right.gif) left no-repeat;
+	padding-left: 8px;
+}
+.grey-arrow-black-bg {
+	background: url(https://img.cdw.com/assets/pages/framework/arrow-black-trans.gif) left no-repeat;
+	padding-left: 8px;
+}
+.grey-toplink-arrow {
+	background: url(https://img.cdw.com/assets/pages/framework/arrow-grey.gif) left bottom no-repeat;
+}
+	
+/*-----------Form elements styles----------------*/
+
+.txtbox-logon, .txtbox-style1, .txtbox-style2, .txtbox-style3, .txtbox-style4, .txtbox-style5  {
+	border: 1px solid #333;
+	width: 170px;
+	height: 20px;
+	padding: 3px;
+	margin: 0;
+	font-size: 11px;
+	color: #333;
+	cursor: text;
+}
+
+.chkbox {
+	height: 12px;
+	width: 12px;
+	border: 0px;
+	padding-right: 0px;
+}
+
+.txtbox-style1 {
+	width: 160px;
+	margin:2px 0 3px 20px;
+	margin:2px 0 0 20px;
+}
+
+.txtbox-style2 {
+	width: 180px;
+	margin-top: 2px;
+	.margin-top: 0px;
+}
+
+.txtbox-style3 {
+	width: 180px;
+	margin:2px 0 3px 10px;
+	.margin:2px 0 0px 10px;
+}
+
+.txtbox-style4 {/*---- for premium close loop pages-----*/
+	width: 275px;
+}
+.txtbox-style5 {/*---- for premium close loop -----*/
+	width: 250px;
+}
+
+.dropmenu-style1, .dropmenu-style2 {
+	border: 1px solid #333;
+	width: 200px;
+	height: 16px;
+	margin: 0px;
+	font-size:11px;
+	color: #333;
+}
+.dropmenu-style2 {
+	width: 95px;
+	height: 18px;
+	.height: 17px; 
+	padding: 0px;
+	margin-bottom: 2px;
+	.margin-bottom:0px;
+}
+
+
+/*----------float style-------------*/
+
+.float-right {float: right;}
+.float-left {float: left;}
+
+/*--------------padding styles------*/
+
+.padding-left5{padding-left: 5px;}
+
+.padding-right10 {padding-right: 10px;}	  
+
+.padding-right140 {padding-right: 140px;}
+
+.padding-left10 {padding-left: 10px;}
+.padding-left22 {padding-left: 22px;}
+
+
+/*--------------margin styles------*/
+
+.margin-top5 {margin-top: 5px;}
+
+.margin-bottom5 {
+	margin-top: 0px;
+	.margin-bottom: 5px;
+}
+
+.margin-left8 {margin-left: 8px;}
+
+.margin-left5 {margin-left: 5px;}
+
+.margin-left10{margin-left: 10px;}
+
+.margin-left20{margin-left: 20px;}
+
+.margin-right20 {margin-right: 20px;}
+
+.margin-right40 {margin-right: 40px;}
+
+.w176 {width:176px;}
+
+/*----------min height stuff--------------------*/
+
+	/* javascript disabled - turn off links */
+	.offLink {
+		text-decoration: none;
+		color: #000;
+		cursor: default;
+	}
+
+	
+.font10 {font-size: 10px}
+/*------------HEADER tabs styles-----------*/
+
+.header-tab-style {
+	padding-left: 5px;
+	padding-top: 0px;
+	text-decoration:none;
+	width:160px;
+}
+
+.header-tab-style:hover {text-decoration:none;}
+
+.header-menu-tab-style {margin-top: 5px;}
+
+#header-menu-tab li:hover ul ul, 
+#header-menu-tab li:hover ul ul ul, 
+#header-menu-tab li.sfhover ul ul, 
+#header-menu-tab li.sfhover ul ul ul {
+	left: -999em; 
+}
+
+#header-menu-tab li:hover ul, 
+#header-menu-tab li li:hover ul, 
+#header-menu-tab li li li:hover ul, 
+#header-menu-tab li.sfhover ul, 
+#header-menu-tab li li.sfhover ul, 
+#header-menu-tab li li li.sfhover ul {
+	left: auto;
+}
+
+
+/*--------------------PRODUCT MENU---------------------*/
+/*-----------------header drop menu--------------------*/
+
+#header-menu-tab a.tab {
+	width: 176px;
+	.width: 187px;	
+	height: 20px;
+	.height: 25px;
+	background: url(https://img.cdw.com/assets/pages/framework/tab-header-menu.gif) no-repeat;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding:5px 0 0 12px;
+	margin-top: 0px;
+}
+
+#header-menu-tab a.tab:hover{
+	text-decoration: none !important;
+}
+
+#header-menu-tab a.tab-last {
+	width: 178px;
+	.width:190px;
+	height: 20px;
+	.height: 25px;
+	background: url(https://img.cdw.com/assets/pages/framework/tab-header-menu-last.gif) no-repeat ;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	padding:5px 0 0 12px;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+#header-menu-tab-prem { /* premium close menu  */
+	padding: 0;
+	margin: 0 2px 0;
+	height: 25px;
+	background: url(https://img.cdw.com/assets/pages/framework/bg-header-menu.gif) repeat-x ;
+	list-style-type: none;	
+}
+
+#header-menu-tab { /* all header menu  */
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#header-menu-tab li { /* all header menu tab --- Product , service */
+	float: left;
+	width: 187px;
+	.width: 184px;	
+	margin-top: 0px;	
+}
+#header-menu-tab #businesscdw-menu li { /* last header tab menu- submenu width*/
+	float: left;
+	width: 186px;
+}
+
+/*-----------Header Second level menu---------*/
+
+#menu, #menu1 { /* second-level lists */
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background:#c6beb5;
+	border: 2px solid #816F58;
+	border-top: none;	
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	z-index: 2;
+}
+
+#header-menu-tab li:hover ul, 
+#header-menu-tab li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;	
+}
+
+#header-menu-tab li ul li {
+	width: 13em;
+	color: #2f2f27 !important;
+	background: #c5beb4;/*level 1 menu background*/
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	list-style-type: none;
+}
+#header-menu-tab li:hover, 
+#header-menu-tab li.sfhover { /*--level 1 menu hover background--*/
+	background: #e5e2dd; 
+	color: #35362e !important;
+}
+
+#header-menu-tab li li li{
+	width: 13em;
+	background: #e3e2dd;/*level 2 menu background color*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #242422;
+}
+
+#header-menu-tab li li li:hover, 
+#header-menu-tab li li li.sfhover { /*--level 2 menu hover background--*/
+	background: #f9f9f9; 
+	color: #2f2f27 !important;
+}
+
+#header-menu-tab li:hover,
+#header-menu-tab li a:hover {
+	text-decoration: none !important;
+}
+
+#header-menu-tab li li a:hover {
+	color: #242422 !important;
+	text-decoration: underline !important;
+}
+
+#header-menu-tab li a:hover {
+	text-decoration: none;
+	cursor:default;
+}
+
+#header-menu-tab li ul ul li a {
+	color:#35362e !important;
+	text-decoration: none !important;
+}
+#header-menu-tab li ul ul li a:hover {
+	color: #2f2f27 !important;
+	text-decoration: underline !important;
+	cursor: pointer;
+}
+
+#header-menu-tab li ul li a,
+#header-menu-tab li ul li a:hover {/* product drop menu style*/
+	width: 174px;
+	.width: 184px;
+	display: block;
+	color: #2f2f27;
+	padding:2px 0 2px 11px;
+	margin: 0;	
+	text-decoration: none;
+}
+
+#header-menu-tab li ul li a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#header-menu-tab li ul ul {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 0;
+	background: #e3e2dd;
+	border: 2px solid #a29e95;		
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	z-index: 1;
+	margin: -19px 0 0 186px;
+	.margin: -17px 0 0 184px;
+	padding: 8px;
+}
+
+#header-menu-tab ul.twocol {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 0;
+	background-color: #e3e2dd;
+	border: 2px solid #a29e95;		
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	z-index: 1;
+	margin: -19px 0 0 184px;
+	.margin-top: -18px;
+	width: 395px; 
+	.width: 408px;
+	padding: 8px;
+}
+#header-menu-tab .twocol .left {
+	width: 150px;
+	padding-right: 0px;
+	margin-right: 20px;
+}
+
+#header-menu-tab .twocol .right {
+	width: 150px;
+}
+
+#header-menu-tab #menu1 li:hover ul, 
+#header-menu-tab #menu1 li:sfhover ul, 
+#header-menu-tab #menu2 li:hover ul, 
+#header-menu-tab #menu2 li:sfhover ul, 
+#header-menu-tab #menu3 li:hover ul, 
+#header-menu-tab #menu3 li:sfhover ul, 
+#header-menu-tab #menu4 li:hover ul, 
+#header-menu-tab #menu4 li.sfhover ul { /* lists nested under hovered list items */
+	display: block;
+}
+
+/* used for Software Title menus in Products/Software dropdown menu */
+ul#menu1 li .title,
+ul#menu1 li:hover .title{
+	background:#efefef;
+	color:#666;
+	font-size:14px;
+	padding:4px 0px;
+	text-indent:5px;
+}
+
+/*-----------------product drop menu for firefox--------------------*/
+
+html>body #header-menu-tab #menu1 li a {
+	width: 173px;
+}
+
+#header-menu-tab li ul { /* second-level lists- other than tabs */
+	width: 186px;
+}
+
+html>body #header-menu-tab li ul ul { /* second-level lists- other than tabs */
+	margin: -19px 0 0 186px;
+}
+
+html>body #header-menu-tab #menu li,
+html>body #header-menu-tab #menu1 li { /* last header tab menu- submenu width*/
+	float: left;
+	width: 186px; 
+}
+
+
+
+/*----------------------ORDER MENU-------------------*/
+/*----------------- Order drop menu --------------------*/
+
+#order-menu-tab a.order-menu-tab {
+	width: 149px;
+	.width:150px;
+	height: 20px;
+	.height: 25px;
+	background: url(https://img.cdw.com/assets/pages/framework/tab-order-menu.gif) no-repeat ;
+	display: block;
+	font-size: 11px;
+	font-weight:bold;
+	color: #fff;
+	padding:5px 0 0 6px;
+	text-decoration: none;
+	margin-top: 0px;	
+}
+#order-menu-tab a.order-menu-tab:hover {
+	text-decoration: none !important;
+	cursor: default;
+}
+#order-menu-tab a.order-menu-tab-last {
+	width: 144px;
+	.width: 150px;
+	height: 20px;
+	.height: 25px;
+	background: url(https://img.cdw.com/assets/pages/framework/tab-order-menu-last.gif) no-repeat ;
+	display: block;
+	font-size: 11px;
+	font-weight:bold;
+	color: #fff;
+	padding:5px 0 0 6px;
+	text-decoration: none;
+	margin-top: 0px;	
+}
+#order-menu-tab a.order-menu-tab-last:hover {
+	text-decoration: underline !important;
+}
+
+#order-menu-tab, 
+#order-menu-tab li, 
+#order-menu-tab li ul, 
+#order-menu-tab li ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+#order-menu-tab li{  /* all order menu tab--- order center , quotes */
+	list-style-type: none;	
+	float: left;
+}
+
+#order-menu-tab li ul { /* order menu --- second-level lists */
+	position: absolute;
+	background: #edede1;
+	border: 2px solid #816F58;
+	border-top: none;
+	width: 147px;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	z-index: 1;
+}
+
+
+#order-menu-tab li:hover ul, 
+#order-menu-tab li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+#order-menu-tab li ul li { /* second-level lists*/
+	width: 142px;
+	.width: 147px;
+	list-style-type: none;
+}
+
+#order-menu-tab li ul li a, 
+#order-menu-tab li ul li a:hover {/* order menu--- drop menu style*/
+	background: #c6bfb5; 
+	display: block;
+	color: #242422;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	padding: 2px 0 2px 5px;
+	margin: 0;
+}
+
+
+#order-menu-tab li ul li a:hover {/*order menu --- hover style*/
+	background-color: #e5e2dd;
+	color: #242422;
+	text-decoration: underline;
+}
+
+#order-menu-tab li ul ul {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 0;
+	background: #EFEDE1;
+	border: 2px solid #816F58;		
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	z-index: 1;
+	margin: -1.45em 0 0 147px;
+}
+
+/*-----------------Order menu for firefox--------------------*/
+
+html>body #order-menu-tab li { 	
+	width: 150px; 
+	margin-top: 0px;
+}
+
+html>body #order-menu-tab li ul li a {/* order drop menu hover style*/
+	width: 142px;
+}
+
+
+.modalWrap {
+	border: 2px #ffffcc inset;
+	background:#fff;
+	margin: -2px 0px 0 0;
+	padding: 1px;
+	font-size: 12px;
+}
+
+ul.nav iframe {
+	position: absolute;
+	left: -0.25em;
+	top: -0.25em;	
+	border: solid 1px black;
+	z-index: -1;	
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+}
+
+.greytxt,
+a.greytxt,
+a.greytxt:active,
+a.greytxt:hover{
+	color: #333;
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 0;
+}
+
+a.greytxt,
+a.greytxt:active{
+	text-decoration: none;
+}
+
+a.greytxt:hover {
+	text-decoration: underline;
+}
+
+.qtytxt,
+a.qtytxt,
+a.qtytxt:active,
+a.qtytxt:hover{
+	color: #666;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 0;
+}
+
+a.qtytxt,
+a.qtytxt:active{
+	text-decoration: none;
+}
+
+a.qtytxt:hover {text-decoration: underline;}
+
+.lightBlacktxt,
+a.lightBlacktxt,
+a.lightBlacktxt:active,
+a.lightBlacktxt:hover{
+	color: #333;
+	font-size: 10px;
+	font-weight: normal;
+	padding-left: 0;
+}
+
+a.lightBlacktxt,
+a.lightBlacktxt:active{
+	text-decoration: none;
+}
+
+a.lightBlacktxt:hover {
+	text-decoration: underline;
+}
+
+.underlinelink:link,
+.underlinelink:visited,
+.underlinelink:active,
+.underlinelink:hover{
+	text-decoration:underline;
+}
+a.underlinelink:link,
+a.underlinelink:visited,
+a.underlinelink:active,
+a.underlinelink:hover{
+	text-decoration:underline;
+}
+a.underlinelink{
+	text-decoration:underline;
+}
+/*-----------popup structure style ends------------------*/
+.logon-popup {
+	font-weight: bold;
+	color: #fff;
+}
+
+.popup-header .txt-white {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.popup-header .txt-white-sm {
+	color:#fff;
+	text-decoration:none;
+	font-weight:normal;
+	font-size:10px;
+}
+
+/*----------------header tab div contents style------------------*/
+
+.logon-consulting-style {
+	font-size: 12px;
+	font-weight: bold;
+	color: #cc0000;
+}
+
+
+/*--------------Text style---------------------*/
+
+.txt-red {
+	color: #CC0000;
+}
+
+#header-top-link a.header-top-link-txt-red {
+	color: #CC0000;
+	text-decoration: none;
+}
+
+.txtbold {font-weight: bold;}
+
+.notyouheader {
+	text-decoration: none;
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+.notyouheader:hover {text-decoration: underline;}
+
+.blacktxt {
+	color: #000;
+	font-size: 11px;
+}
+
+.loginboxtexts {
+	font-family:arial;
+	font-size:11px;
+	padding-left:5px;
+}
+
+.logincheckbox {
+	border:0px;
+	margin:0px;
+	height:12px;
+	width:12px;	
+}
+
+
+/*-- Featured Products --*/
+
+#feature-prod{
+	width:182px;
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+#feature-prod #feature-prod-header{
+	margin: 0;
+	padding: 0;
+	background-color:#807667;
+}
+
+#feature-prod #feature-prod-header h4{
+	padding: 2px 0 2px 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#feature-prod #feature-prod-top{
+	background: url(https://img.cdw.com/assets/pages/framework/feat-prod-top-cor.gif) no-repeat;
+	height: 14px;
+}
+
+#feature-prod #feature-prod-mid{
+	background: url(https://img.cdw.com/assets/pages/framework/feat-prod-mid.gif) repeat-y;
+}
+
+#feature-prod #feature-prod-mid #feat-prod-content{
+	margin: 0 13px 0 13px;
+}
+
+#feature-prod #feature-prod-footer{
+	height: 14px;
+	background: url(https://img.cdw.com/assets/pages/framework/feat-prod-bot-cor.gif) top center no-repeat;
+}
+
+#feature-prod #feature-prod-mid .nugget-feat-prod-content-holder ul{
+	font-size:10px;
+	color:#82735e;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#feature-prod #feature-prod-mid .nugget-feat-prod-content-holder ul li{
+	line-height:10px;
+	list-style-type: none;
+	margin: 3px 0 0px 0;
+	padding-left: 5px;
+	background: url(https://img.cdw.com/assets/pages/framework/ico-fet-prod-nugget-new.gif) no-repeat;
+}
+
+#feature-prod #feature-prod-mid .nugget-feat-prod-content-holder .nugget-feat-prod-img-pr{
+	float: left;
+	width: 80px;
+	margin: 5px 5px 8px 0;
+	.margin: 5px 5px 3px 0;
+}
+
+.feat-prod-more {margin-top: 5px;}
+
+div.hr {
+	height: 1px;
+	background: #fff url(https://img.cdw.com/assets/pages/framework/px-gray.gif) center;
+	margin: 10px 0px 0px 0px;
+	clear: both;
+}
+
+div.hr hr {display: none;}
+
+.disclaimer {
+	clear: both;
+	font-size:10px;
+	color:#666666;
+	margin: 0;
+	padding: 0;
+}
+
+/*-- Feature Product Display ---*/
+
+#feat-prod-disp {
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow:hidden;
+}
+#feat-prod-disp #feat-prod-cont {
+	width:176px;
+	margin:0px;
+	padding:0;
+}
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-header {
+	height:29px;
+	margin: 0;
+	padding: 0px;
+	background:#ccc url(https://img.cdw.com/assets/backgrounds/greyHeader.gif) repeat-x;
+	border-top:3px solid #6d6559;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-header img {margin:7px 0px 0px 9px;}
+
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-header h4 {
+	margin: 2px 0 0 10px;
+	padding-top: 2px;
+	.padding: 0;
+	font-weight: bold;
+	font-size:13px;
+	color: #fff;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-top {
+	display:none;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid {
+	border:1px solid #eceadb;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder {
+	min-height:121px;
+	background:#fff url(https://img.cdw.com/assets/backgrounds/CDWRec_bg.gif) repeat-x;
+	padding:12px 12px;
+}
+
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder h5 {
+	margin: 0px 0px 3px 0px;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a6593d;
+	position:relative;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder .prod-name-text {
+	font-size: 11px;
+	font-weight:bold;
+	color: #333;
+	position:relative;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder h6 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #333;
+	position:relative;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder .nugget-feat-prod-img-pr {
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-mid .nugget-feat-prod-cont-holder .price-cont {
+	float: left;
+	margin: 3px 0 0 0;
+}
+
+#feat-prod-disp #feat-prod-cont #feature-prod-cont-footer {
+	margin-bottom: 0px;
+	background: url(https://img.cdw.com/assets/pages/framework/feat-prod-bot-cor-new.gif) top center no-repeat;
+	height: 14px;
+	display:none;
+}
+
+.feat-prod-more {padding: 0;}
+
+.disclaimer-text {
+	clear: both;
+	font-size:10px;
+	color:#666666;
+	margin: 0;
+	padding: 0;
+}
+
+.divider-line {
+	height: 1px;
+	background: #fff url(https://img.cdw.com/assets/pages/framework/px-gray.gif) center;
+	margin: 3px 12px 4px 12px;
+	clear: both;
+	display:none;
+}
+
+.divider-line hr {display: none;}
+
+/*-- Container Right of Medium Showcase Homepage --*/
+
+#container-right {
+	margin: 0 0 10px 0; 
+	width: 184px; 
+	float:left;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.prod-promo{
+	width: 176px;
+	margin: 0;
+	padding: 0;
+}
+
+.prod-promo-title{
+	height: 20px;
+	background: url(https://img.cdw.com/assets/pages/framework/bg-pro-promo-title.gif) repeat-x;
+	padding: 0 0 0 10px;
+}
+
+.prod-promo-title h4 {
+	font-weight: bold;
+	color: #fff;
+	float: left;
+	padding: 2px 0 0 0;
+}
+
+.prod-promo-title .image{
+	margin: 0;
+	.margin: 1px 1px 0 0;
+	float: right;
+	border: 0;
+}
+
+.prod-promo-content{
+	border: 1px solid #b7afa0;
+	padding: 7px 3px 20px 7px;
+	.padding: 7px 3px 7px 7px;
+}
+
+html>body .prod-promo-content{width: 164px;}
+
+.prod-promo-content .prod-promo-content-elem {margin-left: 63px;}
+
+.prod-promo-content .prod-promo-content-elem h4 {color: #333;}
+
+.prod-promo-content .prod-promo-content-elem h5 {color: #333;}
+
+.prod-promo-content .image {
+	margin-right: 8px;
+	float: left;
+}
+
+.prod-promo-content ul {
+	padding: 0 0 0 15px;
+	.padding: 0 0 0 20px;
+	margin: 0;
+}
+
+.prod-promo-content li {
+	list-style-image: url(https://img.cdw.com/assets/pages/framework/ico-ora-sml-right.gif);
+	padding-bottom: 5px;	
+}
+
+.prod-promo-content ul a {
+	color: #333;
+	text-decoration: none;
+}
+
+.prod-promo-content ul a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.prod-promo-content h5 {
+	color: #333;
+	font-weight: normal;
+}
+
+.prod-promo-content h5.txtred {
+	color: #a20000;
+	font-weight: normal;
+}
+
+/*--Feature Product Nuggets style--*/
+
+#container-right .nugget-feat-prod{
+	width: 182px;
+	.width: 184px;
+	margin: 6px 0 10px 0;	
+	background: url(https://img.cdw.com/assets/pages/framework/nugget-feat-prod-content-bot.gif) bottom no-repeat;
+}
+
+#container-right .nugget-feat-prod-title{
+	height: 19px;
+	.height: 21px;
+	background: url(https://img.cdw.com/assets/pages/framework/bg-pro-promo-title.gif) repeat-x;
+	padding: 2px 0 0 10px;
+}
+
+#container-right .nugget-feat-prod-container{
+	border: 1px solid #b7afa0;
+	border-top: none;
+}
+
+#container-right .nugget-feat-prod-content{
+	border-right: 6px solid #E6E5D3;
+	border-left: 6px solid #E6E5D3;
+	background: url(https://img.cdw.com/assets/pages/framework/nugget-feat-prod-content-top.gif) top no-repeat;
+	padding: 20px 10px 10px 10px;
+}
+
+#container-right .nugget-feat-prod-content-holder {
+	margin-bottom: 0px;
+	padding-top:10px;
+	clear: both;
+}
+
+.banner-support-nugget {
+	height: 61px;
+	width:291px;
+	float:left;
+	margin:20px 5px 20px 0;
+	background: url(https://img.cdw.com/assets/pages/framework/blk-grd-bg.gif) left top no-repeat;
+}
+
+.banner-support-nugget .image{
+	float: left;
+	height: 45px;
+	width: 65px;
+	margin: 8px 8px 8px 10px;
+}
+
+.banner-support-nugget .banner-support-nugget-content {
+	float: left;
+	height: 45px;
+	margin: 8px 0 8px 0;
+}
+
+.banner-support-nugget .banner-support-nugget-content h4 {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.banner-support-nugget .banner-support-nugget-content p {
+	padding: 0;
+	margin: 0;
+	width: 205px;
+	color: #fff;	
+	font-size: 11px;
+}
+
+div .seprator {
+  height: 1px;
+  width: 345px;
+  background: #fff url(https://img.cdw.com/assets/pages/framework/px-gray.gif) center;
+  margin: 10px 0;
+  padding: 0;
+}
+
+div .seprator hr {display: none;}
+
+
+
+/* -- Styles for Global Content-- */
+
+
+.padding-margin0 {
+	padding: 0;
+	margin: 0;
+}
+
+.txtright {text-align: right;}
+
+.bottom-space{
+	height: 150px;
+	clear: both;
+}
+
+#arrow-sign, #arrow-sign-brown {
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin: 0;
+	padding: 0;
+	z-index:1;
+	width: 12px;
+	height: 24px;
+	visibility:hidden;
+}
+
+#arrow-sign-brown{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	z-index:30;
+	width: 10px;
+	height: 20px;
+	visibility:hidden;
+}
+
+.v-align-mid{vertical-align: middle;}
+
+
+/*----------Banner Support Nugget style-----------------------*/
+
+
+#banner-support-nugget{
+	height: 60px;
+	background:url(https://img.cdw.com/assets/pages/framework/banner-suport-nugget-corner.gif) right bottom no-repeat;
+}
+
+#banner-support-nugget .image{
+	margin: 5px 0 0 5px;
+	float: left;
+}
+
+#banner-support-nugget-content {
+	float: left;
+	padding: 12px 0 0 0;
+	margin-left: 5px;
+}
+
+#banner-support-nugget-content h5{
+	color: #fff;
+}
+
+#banner-support-nugget-content ul{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+#banner-support-nugget-content ul li{
+	list-style-type: none;
+	padding-left: 10px;
+	background: url(https://img.cdw.com/assets/pages/framework/icon-white-contractnugget.gif) left no-repeat;
+}
+
+#banner-support-nugget-content li a {
+	color: #fff;
+	text-align: underline;
+}
+
+/*----------Top Container Main Graphic-----------------------*/
+
+#welcome-ca-main-feat-content h3 {
+	color: #CB0000;
+	font-size:14px;
+}
+
+#welcome-ca-main-feat-content p {
+	margin: 7px 0 0 2px;
+	width:100%;
+}
+
+#welcome-ca-main-feat-content .image {
+	float: right;
+	margin-right: 20px;
+}
+
+#acct-log-on h4.txtgrey{
+	color: #555;
+}
+
+#top-all-content-bottom {
+	height: 93px;
+	margin: 0;
+}
+
+
+/* -- Site Tools Nugget -- */
+
+.nugget-title {
+	height: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.nugget-title h4{
+	color: #333;
+	float: left;
+	padding: 2px 0 0 5px;
+}
+.nugget-title h4 a{
+	text-decoration: none;
+}
+.nugget-title h4 a:hover{
+	text-decoration: underline;
+}
+.wrapper .nugget-title .image, .wrapper2 .nugget-title .image{
+	float: right;
+	padding: 0;
+	margin-right: 0px;
+	.margin-right: -3px;
+	border: none;
+	width: 19px;
+	height: 18px;
+}
+
+/* -- Top Feature Nugget --*/
+
+.top-feat-img img {
+	margin: 7px;
+	float: left;
+}
+
+
+/*--Dark Resource Nugget style Starts--*/
+.wrapper select {
+	margin: 5px 5px 0 5px;
+}
+.wrapper {
+	background: url(https://img.cdw.com/assets/pages/framework/bg-solution-sc-left.jpg) left top no-repeat; 
+	height:93px; 
+	width:176px; 
+	padding:0; 
+	margin: 0px 5px 0px 0px;
+	color:#333;
+}
+
+.wrapper2 {
+	background: url(https://img.cdw.com/assets/pages/framework/bg-solution2-sc-left.gif) left top no-repeat; 
+	height:93px; 
+	width:196px; 
+	padding:0; 
+	margin: 0px 5px 0px 0px;
+	color:#333;
+}
+
+.wrapper a, .wrapper2 a{text-decoration:underline;}
+
+p.key-nugget-text, .key-nugget-text {color: #fff!important;}
+p.key-nugget-text a:link, .key-nugget-text a:link, 
+p.key-nugget-text a:visited, .key-nugget-text a:visited,
+p.key-nugget-text a:active, .key-nugget-text a:active{
+	color: #fff;
+	text-decoration: underline;
+}
+
+p.key-nugget-text a:hover, .key-nugget-text a:hover {color: #fff!important;}
+
+.wrapper-rgt{margin-left: 6px;}
+
+.wrapper h4{
+	color: #333;
+	float: left;
+	padding: 2px 0 0 5px;
+}
+
+.wrapper h4 a, .wrapper2 h4 a{
+	color: #333;
+	text-decoration: none;
+}
+.wrapper h4 a:hover, .wrapper2 h4 a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+
+.wrapper .image, .wrapper2 .image{
+	float: right;
+	padding: 0;
+	margin:0 0 0 0;
+	.margin:0 -3px 0 0;
+	border: none;
+	width: 19px;
+	height: 19px;
+}
+
+.wrapper p, .wrapper2 p{
+	color: #333;
+	clear:left;
+	line-height:14px;
+	padding:5px 5px 0 5px;
+	font-size:11px;
+}
+.wrapper p  a.signup, .wrapper2 p  a.signup{
+	color: #333;
+	text-decoration: underline;
+}
+
+.wrapper p  a.signup:hover, .wrapper2 p  a.signup:hover{
+	color: #333;
+	text-decoration: underline;
+}
+
+.subfeature-link {
+	position:absolute;
+	z-index: 10;
+	margin:10px 0 0 20px;
+	.margin:0 0 0 -343px;
+	width: 336px;
+	.width: 338px;
+	height: 75px;
+	.height: 77px;
+}
+
+.subfeature-link-img {
+	width: 336px;
+	.width: 338px;
+	height: 75px;
+	.height: 77px;
+}
+
+
+/**********************************NEW HEADER/FOOTER*******************************/
+
+
+.headerContainer, .headerContainerG, .headerContainerAccount, .headerContainerAccountG, .headerContainerDefault, .headerContainerDefaultG {
+	text-align:left;
+	width:960px;
+	height:100px;
+	position:relative;
+	font-family:arial;
+	color:#333;
+	font-size:11px;
+	margin:0 0 8px 0;
+	z-index:2001;
+}
+
+.headerContainer {background: url(https://img.cdw.com/assets/pages/framework/headerShop_bg.gif) no-repeat;}
+.headerContainerG {background: url(https://img.cdw.com/assets/pages/framework/headerShopG_bg.gif) no-repeat;}
+.headerContainerAccount {background: url(https://img.cdw.com/assets/pages/framework/headerAccount_bg.gif) no-repeat;}
+.headerContainerAccountG {background: url(https://img.cdw.com/assets/pages/framework/headerAccountG_bg.gif) no-repeat;}
+.headerContainerDefault {background: url(https://img.cdw.com/assets/pages/framework/headerDefault_bg.gif) no-repeat;}
+.headerContainerDefaultG {background: url(https://img.cdw.com/assets/pages/framework/headerDefaultG_bg.gif) no-repeat;}
+
+.headerContainer .logo, .headerContainerG .logo, .headerContainerAccount .logo, .headerContainerAccountG .logo, .headerContainerDefault .logo, .headerContainerDefaultG .logo {
+	position:absolute;
+	top:26px;
+	left:38px;
+}
+
+
+
+.minuserwidth-c {
+                padding-top:3px;
+                float:left;
+                width:87px;
+                .width:78px;
+}
+
+.minuserwidth-a {
+                padding-top:3px;
+                float:left;
+                width:243px;
+                .width:238px;
+}
+
+
+#welcome-user-shop {
+	float: left;
+	width: 670px;
+	margin-left: 0px;
+	padding:7px 0 0 5px;
+}
+
+/******************************HEADER TABS**********************************/
+.headerTabShop {
+	width: 175px;
+	height:20px;
+	font-size:14px;
+	font-weight:bold;
+	position:absolute;
+	top:18px;
+	left:200px;
+	padding-left:5px;
+}
+
+.headerTabShop a, .headerTabMyAccount a{
+	text-decoration:none;
+	color:#333;
+	display:block;
+}
+
+.headerTabShop a.selected, .headerTabMyAccount a.selected{
+	text-decoration:none;
+	color:#333;
+	font-size:16px;
+}
+
+.headerTabMyAccount {
+	width: 175px;
+	height:20px;
+	font-size:14px;
+	font-weight:bold;
+	position:absolute;
+	top:18px;
+	left:390px;
+	padding-left:5px;
+}
+
+/******************************PRINT THIS PAGE************************/
+
+.printPage {
+	width:113px;
+	height:18px;
+	position:absolute;
+	top:14px;
+	left:810px;
+}
+
+/******************************HEADER SEARCHING******************************/
+#header-tab-element {
+	width:748px;
+	position:absolute;
+	top:40px;
+	left:200px;
+}
+
+#header-tab-element .browseAll a{
+	float:left;
+	margin-top:12px;
+	margin-left:10px;
+	font-size:10px;
+	text-decoration:none;
+	color:#333;
+	padding-left:8px;
+	background: url(https://img.cdw.com/assets/pages/framework/ico-grey-right.gif) 0px 3px no-repeat;
+}
+
+#header-tab-element .browseAll a:hover{
+	text-decoration:underline;
+	color:#333;
+}
+.browseall{display:none;}
+.txtbox-search{width:266px;height:23px;padding:3px;margin:0;font-size:11px;color:#333;cursor:text;float:left;margin-right:3px;}
+
+.dropmenu{width:152px;height:23px;margin:0;font-size:11px;color:#333;float:left; margin-right:5px;padding:1px 1px 1px 5px;}
+
+.findit-btn{float:left;margin-top:5px;padding:0;}
+
+/******************************TOP NAV******************************/
+
+ul#header-menu-tab, ul#header-order-menu-tab{
+	position:absolute;
+	top:72px;
+	.top:75px;
+	left:196px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+/***************************************************FOOTER****************************************************************/
+
+.footerContainer {
+	background:#fff;
+	margin:9px 0 0;
+	position:relative;
+	clear:both;
+}
+
+.footerContainer .footerLinks {
+	height:auto;
+	.height:1%;			
+	background:#eceadb;
+	border-top:2px solid #79746c; 
+	padding:10px 0 16px;
+	margin:0 0 1px
+}
+ 
+.footerContainer .footerLinks .col {
+	width:192px;
+	margin:0px;
+	float:left;
+}
+
+.footerContainer .footerLinks .last {border:none !important;}
+
+.footerContainer .footerLinks .content {
+	width:auto !important;
+	height:auto !important;
+	background:none !important;
+	margin:0px !important;
+	padding:0px 10px 0 20px;
+	border-right:1px solid #9b9a96;
+}
+
+.footerContainer .footerLinks h3 {
+	font-size:14px;
+	font-weight:bold;
+	margin:0 0 9px;
+	padding:0px;
+	display:block;
+}
+
+.footerContainer .footerLinks a {
+	color:#666 !important;
+	text-decoration:none !important;
+	font-size:12px;
+	display:block;
+}
+
+.footerContainer .footerLinks a:hover {
+	color:#666 !important;
+	text-decoration:underline !important;
+}
+
+.footerContainer .legal {
+	height:auto;
+	.height:1%;
+	color:#666;
+	font-size:12px;
+	padding:18px 0 34px 287px;
+	border-top:6px solid #d5d5cc;
+}
+
+.footerContainer .legal img {
+	margin:0 32px 0 0;
+	float:left;
+}
+
+.footerContainer .legal p {
+	width:400px;
+	margin:10px 0 0;
+	float:left;
+}
+
+.footerContainer .legal a {
+	color:#666;
+	text-decoration:none;
+}
+
+.footerContainer .legal a:hover {
+	color:#666;
+	text-decoration:underline;
+}
+
+
+
+a.HeadLink:hover 		{color:#fff;text-decoration:underline;}
+a.MenuLink:hover 		{color:#000;text-decoration:underline;}
+a.MenuLink3:hover 		{color:#333;text-decoration:underline;}
+
+a.SidebarLink:hover, a.SBLink:hover {color:#CC0000;text-decoration:underline;}
+
+a.sstlinkRed:hover {color:#333;text-decoration:none;}
+
+a.blbRed:hover, 
+a.dl:hover, 
+a.blb6:hover, 
+a.blb9:hover, 
+a.btslink:hover, 
+a.btslink3:hover, 
+a.btslink6:hover, 
+a.btslink9:hover, 
+a.btslinkC:hover, 
+a.btslinkW:hover, 
+a.ProductMenu:hover, 
+a.Categories:hover, 
+a.sstLink:hover, 
+a.NGbody:hover, 
+a.NGbodybold:hover {
+	color:#CC0000;text-decoration:none;
+}
+
+a.dhMW:hover, a.blbRedBlack:hover {color:#000;text-decoration:none;}
+
+a.btblinkRed:hover, a.btslinkRed:hover {color:#333;text-decoration:none;}
+
+a.GDDMenuLink:hover {color:#fff;text-decoration:none;}
+a.GSmartBuys:hover {color:#999;text-decoration:none;}
+
+
+a.greenlinks {color:#9DB029; font-weight:bold;font-size:11px;text-decoration:none;}
+a.greenlinks:visited, a.greenlinks:active {font: bold 11px; color:#9DB029; text-decoration: none;}
+a.greenlinks:hover {font: bold 11px; color: #9DB029; text-decoration: underline;}
+
+a.NGbodybold:visited {text-decoration:none;}
+.tabLine {border-bottom: 2px solid #CACACA;}
+.tabSelected {font-size: 9pt; font-weight: normal; background-color: #fff; color: #000; }
+.tabNormal {font-size: 9pt; font-weight: normal; background-color: #5a5a5a; color: #fff; }
+
+/**************************************MODAL POPUP******************************************************/
+
+.modalPopUp {
+	width:344px;
+	background:#fff;
+	padding:20px;
+	color:#333;
+	text-align:left;
+	font-family:arial;
+}
+
+.modalPopUp .lblProductActionMsg {font-weight:bold; font-size:14px;}
+
+.modalBackground 
+{
+	background:#fff;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	position:relative;
+	top:auto;
+	left:auto;	
+}
+
+.modalPopUpHide
+{
+	border:none;
+	height:0px; 
+	width:0px;
+	color:#333;       	
+	display:none;
+}
+
+.modalBgDeleteCompare {
+      background: #fff;
+      filter: alpha(opacity=70);
+      opacity: 0.7;
+      position:relative;
+      top:auto;
+      left:auto;
+}
+
+.modalBoxDeleteCompare {
+      background: #f5f5f5;
+      border:1px solid #ccc;    
+      text-align: left;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 15px;
+      padding: 25px 20px 10px 25px
+}
+                              
+.btnOK
+{
+	height:25px; 
+	width:25px;
+	text-align: center;
+	margin: 5px 115px 15px 115px       	
+}            
+
+.hideBogus {display:none;}
+
+/**********************PRODUCT INFO POPUP*******************/
+
+.ProductInfoPopup {
+	position:absolute;
+	border:1px solid #79756a;
+	z-index:10000;
+	background:#fff;
+	visibility:hidden;
+	width:300px;
+	height:100px;
+	text-align:left;	
+}
+
+.ProductInfoPopupHeader {
+	background:#9b9891 url(https://img.cdw.com/global/backgrounds/infoPopUpHeader_bg.gif) 100% 0% repeat-y;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	padding:2px 10px;      
+}
+
+.ProductInfoPopupBody {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#fff;
+	color:#333;
+	padding:10px;
+}
+
+
+/*************************INFO POPUP************************/
+.InfoPopup {
+	position:absolute;
+	width:200px;
+	border:1px solid #79756a;
+	z-index:10000;
+	background:#fff;
+	text-align:left;
+}
+
+.InfoPopupBody {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	background:#fff;
+	color:#333;
+	padding:14px 23px;
+	height:auto;
+}
+
+.InfoPopupHeader {
+	background:#9b9891 url(https://img.cdw.com/global/backgrounds/infoPopUpHeader_bg.gif) 100% 0% repeat-y;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	padding:2px;      
+}
+
+/**********************ERROR NOTIFICATION*******************/
+
+.errorNotification {
+	width:100%;
+	height:auto;
+	margin: 0px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:left;
+	display:block;
+}
+
+.errorNotification img {
+	margin:0px 9px 30px 0px;
+	float:left;
+}
+
+.errorNotification h4 {
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 0px 5px 0px;
+	padding:0px;
+}
+
+.errorNotification ul {
+	margin:0px 0px 0px 58px;
+	padding:0px;
+}
+
+.errorNotification li {
+	list-style-type:disc;
+	margin:0px;
+	padding:0px;
+	color:#cc0000;
+	font-size:12px;
+}
+
+.errorIconSmall {
+	width:26px;
+	text-align:center;
+}
+
+label.error {
+	color: #C00;
+	font-weight: bold;
+}
+
+input.error, select.error, textarea.error {
+	background: #FBF4BD; 
+	border: 1px solid #C00;
+	font-weight: normal;
+}
+
+
+/************************* UNIVERSAL GREY HEADER **********************************************/
+
+.sectionHeader {
+	background:#b3b3a9;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	padding:4px 12px 6px;	
+	margin:0px 0px 6px 0px;
+	clear:both;
+}
+
+
+/*************************NEW STYLES*********************************/
+
+.transHeader {
+	background:#8c9a21 url(https://img.cdw.com/global/transHeader_bg.gif) no-repeat;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	font-family:arial;
+}
+
+.iframeFix {position:absolute; top:0px; left:0px; display:block; filter:alpha(opacity=0); -moz-opacity:.0; opacity:.0}
+
+
+/****************************** SLS AD ************************************/
+
+.slsAd{
+	height:1%;
+	margin: 0;
+	padding: 0;
+	font-family:arial;
+	border: 1px solid #b8bbaa;
+	padding:0 0 0 7px;
+	position:relative;
+}
+
+.slsAd .corner {margin:0px; position:absolute; bottom:-2px; left:-1px;}
+html>body .slsAd .corner {margin:0px; position:absolute; bottom:-1px; left:-1px;}
+
+.slsAd .title{
+	color:#806f57;
+	padding: 2px 5px 2px 0px;
+	margin:0px;
+}
+
+.slsAd .title h4 {margin:0px; padding:0 14px 0 0; font-size:11px; font-weight:bold; background: url(https://img.cdw.com/global/arrows/doubleArrow-right.gif) 100% 5px no-repeat;}
+
+.slsAd .hr {height:1px; overflow:hidden; border:none; color:#b8bbaa; background:#b8bbaa; margin:0px; padding:0px;}
+
+.slsAd .content{
+	color:#806f57;	
+	padding: 7px 3px 7px 0px;
+	text-align:center;
+}
+
+.slsAd .productImg {
+	margin-right: 8px;
+	float: left;
+}
+
+.slsAd p {margin:0px; padding:0px; text-align:left;}
+
+/******************************** CA HERO SPOT ********************************/
+
+#top-container-main-graphic {
+	width: 580px;
+	.width: 582px;
+	height:250px;
+	background: no-repeat; 
+	float: left;
+}
+
+/************************ GLOBAL MENU SOFTWARE TITLES *************************/
+#header-menu-tab li.software .twocol .left {
+	width:260px !important;
+	clear:left;
+	
+}
+
+#header-menu-tab li.software .twocol .right{
+	width:260px !important;
+}
+
+#header-menu-tab li.software .twocol .title {
+	width:260px !important;
+}
+
+#header-menu-tab li.software .twocol .title span {
+	padding-left:5px !important;
+	
+}
+
+#header-menu-tab li.software ul li.left a,
+#header-menu-tab li.software ul li.left span,
+#header-menu-tab li.software ul li.right a,
+#header-menu-tab li.software ul li.right span{
+	width:250px !important;
+	display:block !important;
+}
+
+#header-menu-tab li.software ul.twocol {
+	margin-left:186px !important;
+	.margin-left:185px !important;
+	margin-top:-229px !important;
+	.margin-top:-207px !important;
+	width:555px !important;
+	.width:576px !important;
+	
+}
+
+/* Translations.com OneLink */
+.OneLinkNoTx { /*no-op*/ }
+.OneLinkHide { /*no-op*/ }
+.OneLinkTxShow { display: none; }
+.OneLinkShow { display: none; }
+
+.ContainerContentNew
+    {
+        border: 1px;
+        border-color: #cccccc;
+        border-style: double double double double;        
+    }
+   
+    .ContainerTopRowNew
+    {
+    	border-top:solid 1px #cccccc;
+    	border-left:solid 1px #cccccc;
+    	border-right:solid 1px #cccccc;
+    	border-bottom:none !important;
+    	padding:5px 5px 0 5px;
+    	.padding:5px 5px 5px 5px!important;
+    	height:30px;
+    	.height:35px!important;
+    	background-position:bottom;
+    	background-repeat:repeat-x;
+    	
+    }
+    .ContainerNameNew
+    {
+        vertical-align: middle;
+        height: 30px;
+        width: 100%;
+    }
+    .ContainerName:hover
+    {
+        cursor: hand;
+    }
+    .ContainerFooterNew
+    {
+        height: 8px; 
+        /*   float: right;
+        text-align: right;;*/
+    }
+    .HeadersFont
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: smaller;
+        font-weight: bold;
+        width:auto;
+		padding-left:5px;
+    }    
+    .MCBold
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .MCContent
+    {
+        font-family: Verdana;
+        font-size: smaller;
+    }
+    .MCDate
+    {
+        font-family: Verdana;
+        font-size: smaller;
+    }
+    .SmallBoldLinkNew
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: 0.10in;
+    }
+    .AlsoConsider
+    {
+        border: 1px;
+        border-color: #cccccc;
+        border-style: double double double double;
+        margin-bottom: 8px;
+        padding:10px;
+        height:125px;
+        background-repeat:repeat-x;
+    }
+    
+    .AlsoConsider p
+    {
+    	font-size:11px;
+    }
+    .HomeFont
+    {
+        font-family: Verdana;
+        color: #4D4E53;
+    }
+    .HomeFontBold
+    {
+        font-family: Verdana;
+        color: #4D4E53;
+        font-weight: bold;
+    }
+    .ImgClass
+    {/* Using to obtain logic for collapsible*/}    
+    
+    /***************** Extranet Welcome Gadget start *****************/
+       .quickCartDiv
+    {
+        float: right;
+        clear: both;
+        width: 586px;
+        padding: 10px 5px;
+        margin-top: 3px;
+    }
+    .topContent
+    {        
+    }
+    .AMContainer
+    {
+        height: 160px;
+    }
+    .ExtranetPromo
+    {
+        background-color: #F9F1EF;
+        border-left: 1px solid #FFFFFF;
+        display: inline;
+        float: left;
+        height: 219px;
+        padding-left: 3px;
+        width: 193px;
+    }
+    .cartIcon
+    {
+        position: relative;
+        top: 3px;
+        margin-right: 3px;
+    }
+    .pFontNrml
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight:normal;
+    }
+    .pFontBold
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-weight:bolder;
+        text-decoration: none;
+        font-size:12px;
+        line-height:1.2em;
+    }
+    .pFontHead
+    {
+        color: #3AB1E0;
+        font-family: Verdana;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .ExtranetBackground
+    {        
+        background-repeat: repeat-x;
+        background-position: bottom !important;
+        border: 1px double #CCCCCC;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    .Welcome
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: 18px;
+        font-weight: normal;
+        padding-bottom:15px;
+    }
+    .CoOpHeads
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: 14px;
+        padding-bottom: 10px;
+        padding-top: 3px;
+    }
+   
+    .PrimeCoOpTitleNew
+    {
+        color: black;
+        font-family: Verdana;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    /*
+        Simeon Added to Account
+    .ExtranetLogoImgNew
+    {
+        background-color: #ffffff;
+        width: 160px;
+        height: 60px;
+        border: 1px;
+        border-color: #cccccc;
+        border-style: solid solid solid solid;
+    }*/
+    .ContainerLinkNew
+    {
+        color: #3AB1E0;
+        font-family: Verdana;
+        font-size: smaller;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .SmallBoldLinkWelcome
+    {
+        color: #4D4E53;
+        font-family: Verdana;
+        font-size: 1em;
+    }
+    .BlufClass a
+    {
+    	text-decoration:None!important;
+    	font-size:11px!Important;
+    }
+    .BlufClass span
+    {
+        color: #CC0000;
+        font-family: Georgia, "Times New Roman" ,Times,serif !important;
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+    .CoopRight
+    {
+    	margin-left:3px;
+    }
+    .CoopRight .ContainerContentNew
+    {
+    	border-top:solid 1px #cccccc;
+    	border-right:solid 1px #cccccc;
+    	border-left:solid 1px #cccccc;
+    	border-bottom:none!important;
+    	padding:10px;
+    }
+    
+    .CoopRight h4
+    {
+    	font-size:11px!important;
+    }
+    .sheight td {
+    height: 35px!important;
+	}
+	.height25
+	{   
+		height:25px!Important;
+		vertical-align: middle!important;
+	}
+	.padding40 {
+    padding-left: 10px!important;
+    height:30px;
+	}
+	.ExtranetContent img {
+    border: medium none;
+    padding-left: 0;
+    }
+    .Black11px
+    {
+    	color:#4D4E53!important;
+    }
+    
+    .right a:active 
+    {
+    	color:#4D4E53!important;
+    }
+    
+    .right a:visited 
+    {
+    	color:#4D4E53!important;
+    }
+    
+    .right a:link 
+    {
+    	color:#4D4E53!important;
+    }
+    
+    
+	
+    .borderBttmGrey
+    {
+    	border-bottom:solid 1px #cccccc;
+    	padding:10px 0 10px 5px;
+    }
+    
+    .ExtranetLogoImgNew
+    {
+    	width:160px;
+    	height:60px;
+    }
+    .ExtranetLogoImgNew img
+    {   
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    text-align:center;
+    position:relative;
+    top:4px;
+    }
+    .CTA
+    {
+    	margin-top:5px;
+    	color:#4D4E53!important;
+    }
+    .CTA p a
+    {
+    	font-weight:bold!important;
+    }
+    
+.article {
+	clear: both;
+	float: right!important;
+	font-size: 11px!important;
+	font-weight: bold!important;
+	padding-left: 0 !important;
+}
+.article a {
+	text-decoration: none !important;
+	font-weight: bold!important;
+}
+.article span {
+	clear: none !important;
+	color: #CC0000;
+	float: none !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 17px !important;
+	font-weight: bold;
+	left: 5px;
+	padding: 0 !important;
+	position: relative;
+	top: 1px;
+	width: auto !important;
+}
+.ProductDescriptions
+{
+	font-family:Verdana;
+	color:#4D4E53;
+	font-size:11px;
+	float:left;
+	text-align:left;
+}
+.PrimeCoOpTitleNew
+{
+	font-size:11px;
+	text-align:left;
+	float:left;
+	clear:right!important;
+	width:200px;
+}
+.messageDetail {
+    margin-right: 5px;
+	border:solid 1px #cccccc!important;
+}
+ .ContainerTopRowMC
+    {
+    	border-top:solid 1px #cccccc;
+    	border-left:solid 1px #cccccc;
+    	border-right:solid 1px #cccccc;
+    	border-bottom:none !important;
+    	padding:5px 5px 0 5px;
+    	.padding:5px 5px 5px 5px!important;
+    	height:30px;
+    	.height:35px!important;
+    }
+/***************** Extranet Welcome Gadget End *****************/
+
+
+
+
+/** random extranet styles **/
+/* extranet page fixes */
+#finderCNetDiv h1 {
+font-family: Verdana, Geneva, sans-serif!important;
+font-size: 28px!important;
+font-weight: normal!important;
+padding: 15px!important;
+vertical-align: middle!important;
+margin-bottom: 10px!important;
+}
+
+    #finderCNetDiv h1 img
+    {margin-right:10px!important;
+    } 
+
+/* TrustMarks */
+#TrustMarks {font-size: 10px;}
+#TrustMarks a {text-decoration: none;}
+#TrustMarks a.about {text-decoration: underline;}
+body .hidePersonal_information #TrustMarks .personal_information, body .hideAbout #TrustMarks .about, body .images-only #TrustMarks .personal_information, body .images-only #TrustMarks .about {display: none;}

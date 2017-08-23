@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Performance Monitor</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link href="/global/gui/styles/main.css" rel="stylesheet" />
+
+    <style>
+        .box {
+            min-height: 300px;
+            background: #ccc;
+        }
+
+        .chart {
+            height: 300px;
+        }
+
+        #tooltip {
+            position: absolute;
+            display: none;
+            border: 1px solid #fdd;
+            padding: 2px;
+            background-color: #fee;
+            opacity: 0.80;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="layout">
+        <h1>Performance Chart </h1>
+        <ul class="tabs">
+            <li><a href="/performance/data/home.json">Home</a></li>
+            <li class="active"><a href="/performance/data/product.json">Product</a></li>
+        </ul>
+        <div class="layout">
+            <div class="layout-6">
+                <h2>File Size</h2>
+                <div id="filesize-chart" class="chart"></div>
+                <p class="disclaimer">File sizes are uncompressed sizes and may be higher than network panel</p>
+                <div id="filesize-legend"></div>
+            </div>
+            <div class="layout-6">
+                <h2># of Files</h2>
+                <div id="quantity-chart" class="chart"></div>
+                <p class="disclaimer"></p>
+                <div id="quantity-legend"></div>
+            </div>
+        </div>
+
+    </div>
+    <div id='tooltip'></div>
+
+
+    <script src="/global/gui/scripts/deploy/internal/performance.js"></script>
+</body>
+</html>
